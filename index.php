@@ -1,15 +1,22 @@
 <?php
 $tugas_sekolah = [];
+if (isset($_COOKIE['tugas_sekolah'])) {
+    $tugas_sekolah = json_decode($_COOKIE['tugas_sekolah'], true);
+}
 
 function tambahTugas($deskripsi, $deadline) {
     global $tugas_sekolah;
     $tugas_sekolah[] = ['deskripsi' => $deskripsi, 'deadline' => $deadline];
+
+     setcookie('tugas_sekolah', json_encode($tugas_sekolah), time() + (86400 * 30), "/");
 }
 
 function hapusTugas($index) {
     global $tugas_sekolah;
     if (isset($tugas_sekolah[$index])) {
         unset($tugas_sekolah[$index]);
+
+         setcookie('tugas_sekolah', json_encode($tugas_sekolah), time() + (86400 * 30), "/");
     }
 }
 

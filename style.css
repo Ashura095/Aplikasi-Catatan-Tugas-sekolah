@@ -1,80 +1,80 @@
-       body {
-            font-family: 'Arial', sans-serif;
-            margin: 20px;
-            padding: 20px;
-            background-color: #f4f4f4;
-            text-align: center;
-            background-image: url(Lovepik_com-500408949-book.jpg);
-            background-repeat: no-repeat; 
-            background-size: 100% 150%;
-        }
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+  background-image: url(Lovepik_com-500408949-book.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 150%;
+}
 
-        h1{
-            font-family: 'Londrina Shadow', sans-serif;
-            font-size: 50px;
-        }
-        h1, h2 {
-            color:white;
-        }
+h1 {
+  font-family: "Londri na Shadow", sans-serif;
+  font-size: 50px;
+}
+h1,
+h2 {
+  color: white;
+}
 
-        form {
-            margin-bottom: 20px;
-        }
+form {
+  margin-bottom: 20px;
+}
 
-        label {
-            display: block;
-            margin-bottom: 5px;
-            color: black;
-            font-weight: bold;
-        }
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: black;
+  font-weight: bold;
+}
 
-        input {
-            padding: 5px;
-            margin-bottom: 10px;
-        }
+input {
+  padding: 5px;
+  margin-bottom: 10px;
+}
 
-        button {
-            padding: 8px;
-            background-color: grey;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
+button {
+  padding: 8px;
+  background-color: grey;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
-        button:hover {
-            background-color: black;
-        }
+button:hover {
+  background-color: black;
+}
 
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
+ul {
+  list-style-type: none;
+  padding: 0;
+}
 
-        li {
-            background-color: #fff;
-            padding: 10px;
-            margin-bottom: 5px;
-            border-radius: 5px;
-        }
+li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
 
-        a {
-            color: wheat;
-            text-decoration: none;
-            margin-left: 10px;
-        }
+a {
+  color: wheat;
+  text-decoration: none;
+  margin-left: 10px;
+}
 
-        a:hover {
-            text-decoration: underline;
-        }
+a:hover {
+  text-decoration: underline;
+}
 
-        .pemberitahuan {
-            color: red;
-        }
-        .bungkus{
-            background-color: rgb(red, green, blue);
-        }
-        .hapus{
-          color: black;
-          font-weight: bold;
-
-        }
+.pemberitahuan {
+  color: red;
+}
+.bungkus {
+  background-color: rgb(red, green, blue);
+}
+.hapus {
+  color: black;
+  font-weight: bold;
+}
